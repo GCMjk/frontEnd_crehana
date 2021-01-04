@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Mi formulario</legend>
+
+            <label for="campoNombre">Nombre:</label>
+            <input type="text" name="name" id="campoNombre" value="Martín" placeholder="Nombre" required>
+            
+        </fieldset>
+
+        <!--Campo de texto-->
+        <p>
+            <label for="nombre">Contraseña:</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre" autofocus>
+        </p>
+
+        <!--Campo de email-->
+        <p>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" maxlength="10" placeholder="Email" required>
+        </p>
+
+        <!--Campo de fecha-->
+        <p>
+            <label for="fecha">Fecha:</label>
+            <input type="date" name="fecha" id="fecha" placeholder="fecha" disabled>
+        </p>
+
+        <!--Campo de fecha y hora-->
+        <p>
+            <label for="fechaHora">Fecha y horas:</label>
+            <input type="datetime-local" name="fechaHora" id="fechaHora" placeholder="fechaHora">
+        </p>
+
+        <!--Campo de subir archivos-->
+        <p>
+            <label for="archivo">Subir archivos:</label>
+            <input type="file" name="archivo" id="archivo" placeholder="Archivo">
+        </p>
+
+        <!--Campo de mes-->
+        <p>
+            <label for="mes">Mes:</label>
+            <input type="month" name="mes" id="mes" placeholder="Mes">
+        </p>
+
+        <!--Campo de numero-->
+        <p>
+            <label for="numero">Numero:</label>
+            <input type="number" name="numero" id="numero" min="4" max="100" step="2" placeholder="Numero">
+        </p>
+
+        <!--Campo de rango-->
+        <p>
+            <label for="rango">Rango:</label>
+            <input type="range" name="rango" id="rango" placeholder="Rango">
+        </p>
+
+        <!--Campo de buscar-->
+        <p>
+            <label for="buscar">Buscar:</label>
+            <input type="search" name="buscar" id="buscar" placeholder="Buscar">
+        </p>
+
+        <!--Campo de telefono-->
+        <p>
+            <label for="telefono">Telefono:</label>
+            <input type="tel" name="telefono" id="telefono" placeholder="Telefono">
+        </p>
+
+        <!--Campo de hora-->
+        <p>
+            <label for="hora">Hora:</label>
+            <input type="time" name="hora" id="hora" placeholder="hora">
+        </p>
+
+        <!--Campo de url-->
+        <p>
+            <label for="url">URL:</label>
+            <input type="url" name="url" id="url" placeholder="Url">
+        </p>
+
+        <!--Campo de semana-->
+        <p>
+            <label for="semana">URL:</label>
+            <input type="week" name="semana" id="semana" placeholder="Semana">
+        </p>
+
+        <!--Campo de seleccion-->
+        <p>
+            <select>
+                <option>Elemento 1</option>
+                <option>Elemento 2</option>
+                <option>Elemento 3</option>
+            </select>
+        </p>
+
+        <!--Campo de radio-->
+        <p>
+            <label for="radio">Radio:</label> <br>
+            <input type="radio" name="radio">Uno
+            <input type="radio" name="radio">Dos
+        </p>
+
+        <!--Campo de checkbox-->
+        <p>
+            <label for="radio">Radio:</label> <br>
+            <input type="checkbox" name="checkbox1">Uno
+            <input type="checkbox" name="checkbox2">Dos
+        </p>
+
+        <!--Campo de checolorkbox-->
+        <p>
+            <label for="color">Color:</label> <br>
+            <input type="color" name="color" id="color">
+        </p>
+
+        <!--Campo de area de texto-->
+        <p>
+            <label for="area">Area:</label>
+            <textarea name="area" id="area" cols="100" rows="10"></textarea>
+        </p>
+
+        <!--Boton enviar y restablecer-->
+        <p>
+            <input type="submit" value="Submit">
+            <input type="reset">
+        </p>
+
+
+    </form>
+</body>
+</html>
